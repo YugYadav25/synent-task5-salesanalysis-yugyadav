@@ -34,7 +34,7 @@ A machine learning project designed to analyze and predict **Sales** performance
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/JINAY2910/synent-task5-salesanalysis-jinayshah.git
 cd synent-task5-salesanalysis-jinayshah
 ```
 
