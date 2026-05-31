@@ -9,14 +9,14 @@ A machine learning project designed to analyze and predict **Sales** performance
 
 ---
 
-## 🎯 Aim & Objectives
+## 🎯 Problem statement
 - Perform comprehensive **Data Cleaning** and **Exploratory Data Analysis (EDA)**.
 - Analyze correlation trends between sales revenue and advertising channels.
 - Build a robust **Linear Regression** model to predict sales and evaluate its performance.
 
-## 📊 Dataset Used
+## 📊 Dataset details
 - **Dataset:** Advertising Dataset
-- **Source:** Loaded dynamically via online repository URL.
+- **Source:** Kaggle (Loaded dynamically via online repository URL.)
 - **Features:**
   - `TV`: Advertising budget spent on TV.
   - `Radio`: Advertising budget spent on Radio.
@@ -35,8 +35,8 @@ A machine learning project designed to analyze and predict **Sales** performance
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/JINAY2910/synent-task5-salesanalysis-jinayshah.git
-cd synent-task5-salesanalysis-jinayshah
+git clone https://github.com/yug-yadav/synent-task5-salesanalysis-yugyadav.git
+cd synent-task5-salesanalysis-yugyadav
 ```
 
 ### 2. Install Dependencies
@@ -46,18 +46,21 @@ pip install -r requirements.txt
 
 ### 3. Launch the Notebook
 ```bash
-jupyter notebook synent-task5-salesanalysis-jinayshah.ipynb
+jupyter notebook synent-task5-salesanalysis-yugyadav.ipynb
 ```
 Run the cells sequentially to see the regression lines, residual plots, correlation heatmap, and predictive analytics.
 
 ---
 
-## 📈 Methodology & Insights
-1. **Correlation Insights:** Discovered that TV advertising budget has the strongest positive correlation with sales, followed by Radio, while Newspaper has a weaker correlation.
+## 📈 Approach
+1. **Correlation Analysis:** Explored the relationships between advertising budgets (TV, Radio, Newspaper) and sales.
 2. **Model Training:** Built a Multiple Linear Regression model mapping `[TV, Radio, Newspaper]` to `Sales`.
-3. **Performance Metrics:** Evaluated the model using:
+
+## 🏆 Results
+- **Correlation Insights:** Discovered that TV advertising budget has the strongest positive correlation with sales, followed by Radio, while Newspaper has a weaker correlation.
+- **Performance Metrics:** Evaluated the model using:
    - **R² Score (Coefficient of Determination)** to measure variance explained.
    - **MAE** & **MSE** to measure average absolute error and standard error variance.
 
 ---
-*Developed by Jinay Shah*
+*Developed by Yug Yadav*
